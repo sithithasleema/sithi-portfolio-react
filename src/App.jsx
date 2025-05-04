@@ -27,7 +27,7 @@ function App() {
         <Projects />
         <Contact />
 
-        <footer className="text-center">
+        <footer className="text-center mb-10">
           Designed and Developed by{" "}
           <a
             href="https://sithithasleema.github.io/sithi-portfolio-react/"
