@@ -26,6 +26,16 @@ function App() {
         <About />
         <Projects />
         <Contact />
+
+        <footer className="text-center">
+          Designed and Developed by{" "}
+          <a
+            href="https://sithithasleema.github.io/sithi-portfolio-react/"
+            className="text-[#c3484b] hover:text-amber-900"
+          >
+            <span>Sithi Thasleema</span>
+          </a>
+        </footer>
       </div>
     </>
   );
