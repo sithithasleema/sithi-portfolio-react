@@ -103,7 +103,8 @@ export const projects = [
       "Filterable image categories using vanilla JavaScript",
       "Lightbox-style image preview for better UX",
     ],
-    url: "https://sithithasleema.github.io/3_photogallery-css/", 
+    url: "https://sithithasleema.github.io/3_photogallery-css/",
+  },
 
   {
     title: "React Landing Page for FitBoost",
@@ -118,7 +119,7 @@ export const projects = [
       "Designed to serve as a startup or portfolio homepage",
       "Deployed on Vercel",
     ],
-    url: "https://fitboost-six.vercel.app/", 
+    url: "https://fitboost-six.vercel.app/",
   },
 
   {
@@ -169,6 +170,6 @@ export const projects = [
       "Implemented payment gateways and local/international shipping options",
       "Managed hosting and domain configuration through GoDaddy",
     ],
-    url: "https://www.arraheemislamicarts.com.au", 
+    url: "https://www.arraheemislamicarts.com.au",
   },
 ];
