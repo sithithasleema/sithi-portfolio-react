@@ -76,6 +76,53 @@ export const workExperience = [
 
 export const projects = [
   {
+    title: "Personal Portfolio Website",
+    stack: "React.js",
+    description:
+      "A personal portfolio website to showcase my projects, skills, and background as a frontend developer and digital artist.",
+    technologies: ["React.js", "Tailwind CSS", "Vite"],
+    features: [
+      "Responsive and accessible design using Tailwind CSS",
+      "Animated loading screen and smooth transitions",
+      "Sections for About, Skills, Projects, Work Experience, and Contact",
+      "Reusable components and clean code structure",
+      "Deployed using Vercel",
+    ],
+    url: "https://sithithasleema.github.io/sithi-portfolio-react/", // Add your live URL here if deployed
+  },
+
+  {
+    title: "Photo Gallery App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "A simple and responsive photo gallery that showcases images in a clean grid layout with interactive hover effects.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    features: [
+      "Responsive grid layout for image display",
+      "Interactive hover effects on images",
+      "Filterable image categories using vanilla JavaScript",
+      "Lightbox-style image preview for better UX",
+    ],
+    url: "", // Add live URL if available
+  },
+
+  {
+    title: "React Landing Page for FitBoost",
+    stack: "React.js",
+    description:
+      "A modern, responsive landing page built with React, highlighting design and performance with clean UI elements.",
+    technologies: ["React.js", "Tailwind CSS"],
+    features: [
+      "Fully responsive layout with Tailwind CSS",
+
+      "Reusable components and clean file structure",
+      "Designed to serve as a startup or portfolio homepage",
+      "Deployed on Vercel",
+    ],
+    url: "https://fitboost-six.vercel.app/", // Add live URL if available
+  },
+
+  {
     title: "Tasty Table",
     stack: "MERN Stack",
     description:
@@ -94,6 +141,7 @@ export const projects = [
     ],
     url: "",
   },
+
   {
     title: "Book Haven",
     stack: "Vanilla JavaScript",
@@ -110,47 +158,18 @@ export const projects = [
   },
 
   {
-    title: "Photo Gallery App",
-    stack: "HTML, CSS, JavaScript",
+    title: "Ar Raheem Islamic Arts",
+    stack: "Shopify",
     description:
-      "A simple and responsive photo gallery that showcases images in a clean grid layout with interactive hover effects.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "An e-commerce website dedicated to showcasing and selling Islamic art, including Arabic calligraphy and illuminated artworks.",
+    technologies: ["Shopify", "Liquid", "HTML", "CSS", "Procreate"],
     features: [
-      "Responsive grid layout for image display",
-      "Interactive hover effects on images",
-      "Filterable image categories using vanilla JavaScript",
-      "Lightbox-style image preview for better UX",
+      "Designed and customized the Shopify theme to reflect the artistic and spiritual aesthetics of the brand",
+      "Created and uploaded original digital artworks using Procreate",
+      "Built product pages for both hand-painted and print-on-demand products",
+      "Implemented payment gateways and local/international shipping options",
+      "Managed hosting and domain configuration through GoDaddy",
     ],
-    url: "", // Add live URL if available
-  },
-  {
-    title: "React Landing Page for FitBoost",
-    stack: "React.js",
-    description:
-      "A modern, responsive landing page built with React, highlighting design and performance with clean UI elements.",
-    technologies: ["React.js", "Tailwind CSS"],
-    features: [
-      "Fully responsive layout with Tailwind CSS",
-
-      "Reusable components and clean file structure",
-      "Designed to serve as a startup or portfolio homepage",
-      "Deployed on Vercel",
-    ],
-    url: "https://fitboost-six.vercel.app/", // Add live URL if available
-  },
-  {
-    title: "Personal Portfolio Website",
-    stack: "React.js",
-    description:
-      "A personal portfolio website to showcase my projects, skills, and background as a frontend developer and digital artist.",
-    technologies: ["React.js", "Tailwind CSS", "Vite"],
-    features: [
-      "Responsive and accessible design using Tailwind CSS",
-      "Animated loading screen and smooth transitions",
-      "Sections for About, Skills, Projects, Work Experience, and Contact",
-      "Reusable components and clean code structure",
-      "Deployed using Vercel",
-    ],
-    url: "https://sithithasleema.github.io/sithi-portfolio-react/", // Add your live URL here if deployed
+    url: "https://www.arraheemislamicarts.com.au", // Add your store link if you'd like
   },
 ];

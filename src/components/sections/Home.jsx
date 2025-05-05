@@ -27,7 +27,7 @@ export const Home = () => {
             <div className="flex gap-4 mt-10 flex-col md:flex-row">
               <a
                 className=" text-gray-200 px-8 py-3 text-center rounded-full max-w-[200px] bg-[#c3484b] hover:bg-[#000000] transition-all duration-300 ease-in-out"
-                href="#work"
+                href="#projects"
               >
                 My Works
               </a>
