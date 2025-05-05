@@ -1,5 +1,3 @@
-import myPic from "../../assets/dp.PNG";
-
 import React from "react";
 import { frontEndSkills, backEndSkills } from "../../data/skills.js";
 import { education, certificates, workExperience } from "../../data/skills.js";

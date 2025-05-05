@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import git from "../assets/github-mark-white.png";
+import linkedin from "../assets/InBug-White.png";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -9,12 +11,21 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-gradient-to-r from-gray-500 to-gray-900 backdrop-blur-lg border-b border-gray-500">
       <div className="">
         <div className="flex justify-between items-center h-26 max-w-[75%] mx-auto">
-          <a
-            className="text-gray-300 text-4xl font-mono font-bold"
-            href="#home"
-          >
-            <span className="text-[#c3484b]">Sithi</span>
-          </a>
+          <div className="flex gap-4 items-center">
+            {" "}
+            <a
+              className="text-gray-300 text-4xl font-mono font-bold"
+              href="#home"
+            >
+              <span className="text-[#c3484b]">Sithi</span>
+            </a>
+            <a href="https://github.com/sithithasleema">
+              <img src={git} alt="GitHub" className="w-6 h-6" />
+            </a>
+            <a href="https://www.linkedin.com/in/sithi-thasleema/">
+              <img src={linkedin} alt="linkedin" className="w-6 h-6" />
+            </a>
+          </div>
 
           {/* Mobile Hamburger menu */}
 

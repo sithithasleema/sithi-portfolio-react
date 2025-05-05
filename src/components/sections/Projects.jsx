@@ -25,7 +25,7 @@ export const Projects = () => {
             solutions.
           </p>
 
-          <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6 max-w-4xl mx-auto pt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 max-w-6xl mx-auto pt-10">
             {projects.map((project) => (
               <div className="rounded-xl p-6 shadow-2xl border-b-gray-400 hover:translate-y-0.5 eas">
                 <h3 className="text-xl font-bold mb-4">
@@ -55,7 +55,7 @@ export const Projects = () => {
                 </ul>
                 <div className="flex justify-end">
                   <a
-                    href="#"
+                    href={project.url}
                     className="text-blue-800 hover:text-blue-500 flex "
                   >
                     View Project
