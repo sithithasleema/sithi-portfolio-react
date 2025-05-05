@@ -172,4 +172,18 @@ export const projects = [
     ],
     url: "https://www.arraheemislamicarts.com.au",
   },
+
+  {
+    title: "Bite & Joy – Food Ordering App",
+    stack: "Figma",
+    description:
+      "A user-friendly mobile app UI designed for a food ordering and delivery service, focused on simplicity, speed, and clean aesthetics.",
+    technologies: ["Figma", "UI/UX Design", "Mobile App Design", "Prototyping"],
+    features: [
+      "Designed intuitive onboarding, menu browsing, cart, and checkout flows",
+      "Used Figma components and auto layout for scalable and consistent design",
+      "Created interactive prototypes to simulate the user journey and test usability",
+    ],
+    url: "https://www.figma.com/proto/JuQXMXPVMNntZeKm7jovc3/Bite-Joy?node-id=40-118&p=f&t=pBtVxYE1bRZmII2K-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
+  },
 ];
