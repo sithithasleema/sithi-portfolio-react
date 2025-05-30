@@ -1,3 +1,8 @@
+import tastyTable from "../assets/tastytable.png";
+import bookHaven from "../assets/bookhaven.png";
+import sithi from "../assets/sithi.png";
+import fitboost from "../assets/fitboost.png";
+
 export const frontEndSkills = [
   "HTML5",
   "CSS3",
@@ -76,38 +81,75 @@ export const workExperience = [
 
 export const projects = [
   {
-    title: "Personal Portfolio Website",
+    title: "Tasty Table",
+    image: tastyTable,
+    stack: "MERN Stack",
+    description:
+      "A food recipe blog application with user-based roles, infinite scrolling, filters, and search functionality.",
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Clerk Authentication",
+      "TanStack",
+      "Imagekit",
+      "Tailwind CSS",
+    ],
+    features: [
+      "Built with MongoDB, Express.js, React.js, and Node.js (MERN Stack)",
+      "Integrated role-based authentication (admin, user)",
+      "Implemented infinite scrolling, search, and advanced filtering using React Query (TanStack)",
+    ],
+    url: "https://tasty-table-food-recipe-blog.onrender.com/",
+  },
+
+  {
+    title: "Book Haven",
+    image: bookHaven,
+    stack: "Vanilla JavaScript",
+    description:
+      "Book Haven is a minimalist book discovery app with search, bookmarking, and pagination powered by the Google Books API.",
+    technologies: ["JavaScript", "HTML", "CSS", "Sass", "MVC Pattern"],
+    features: [
+      "Built using JavaScript, HTML, and CSS",
+      "Implemented local storage for data persistence, allowing users to save bookmarks and preferences",
+      "Integrated a search feature and pagination system",
+      "Applied the MVC architecture to organize code efficiently and improve maintainability",
+    ],
+    url: "https://sithithasleema.github.io/book-haven-js/",
+  },
+
+  {
+    title: "Personal Portfolio",
+    image: sithi,
     stack: "React.js",
     description:
       "A personal portfolio website to showcase my projects, skills, and background as a frontend developer and digital artist.",
     technologies: ["React.js", "Tailwind CSS", "Vite"],
     features: [
-      "Responsive and accessible design using Tailwind CSS",
-      "Animated loading screen and smooth transitions",
-      "Sections for About, Skills, Projects, Work Experience, and Contact",
-      "Reusable components and clean code structure",
-      "Deployed using Vercel",
+      "Personal Portfolio site built with React and Tailwind CSS to showcase projects, skills, and contact info.",
     ],
     url: "https://sithithasleema.github.io/sithi-portfolio-react/", // Add your live URL here if deployed
   },
 
-  {
-    title: "Photo Gallery App",
-    stack: "HTML, CSS, JavaScript",
-    description:
-      "A simple and responsive photo gallery that showcases images in a clean grid layout with interactive hover effects.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    features: [
-      "Responsive grid layout for image display",
-      "Interactive hover effects on images",
-      "Filterable image categories using vanilla JavaScript",
-      "Lightbox-style image preview for better UX",
-    ],
-    url: "https://sithithasleema.github.io/3_photogallery-css/",
-  },
+  // {
+  //   title: "Photo Gallery App",
+  //   stack: "HTML, CSS, JavaScript",
+  //   description:
+  //     "A simple and responsive photo gallery that showcases images in a clean grid layout with interactive hover effects.",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   features: [
+  //     "Responsive grid layout for image display",
+  //     "Interactive hover effects on images",
+  //     "Filterable image categories using vanilla JavaScript",
+  //     "Lightbox-style image preview for better UX",
+  //   ],
+  //   url: "https://sithithasleema.github.io/3_photogallery-css/",
+  // },
 
   {
     title: "React Landing Page for FitBoost",
+    image: fitboost,
     stack: "React.js",
     description:
       "A modern, responsive landing page built with React, highlighting design and performance with clean UI elements.",
@@ -121,42 +163,9 @@ export const projects = [
     ],
     url: "https://fitboost-six.vercel.app/",
   },
+];
 
-  {
-    title: "Tasty Table",
-    stack: "MERN Stack",
-    description:
-      "A food recipe blog application with user-based roles, infinite scrolling, filters, and search functionality.",
-    technologies: [
-      "MongoDB",
-      "Express.js",
-      "React.js",
-      "Node.js",
-      "React Query",
-    ],
-    features: [
-      "Built with MongoDB, Express.js, React.js, and Node.js (MERN Stack)",
-      "Integrated role-based authentication (admin, user)",
-      "Implemented infinite scrolling, search, and advanced filtering using React Query (TanStack)",
-    ],
-    url: "",
-  },
-
-  {
-    title: "Book Haven",
-    stack: "Vanilla JavaScript",
-    description:
-      "A book recommendation and sharing app that allows users to add, rate, and comment on books.",
-    technologies: ["JavaScript", "HTML", "CSS"],
-    features: [
-      "Built using JavaScript, HTML, and CSS",
-      "Implemented local storage for data persistence, allowing users to save bookmarks and preferences",
-      "Integrated a search feature and pagination system",
-      "Applied the MVC architecture to organize code efficiently and improve maintainability",
-    ],
-    url: "",
-  },
-
+export const shopifyProjects = [
   {
     title: "Ar Raheem Islamic Arts",
     stack: "Shopify",
@@ -172,7 +181,9 @@ export const projects = [
     ],
     url: "https://www.arraheemislamicarts.com.au",
   },
+];
 
+export const figmaProjects = [
   {
     title: "Bite & Joy – Food Ordering App",
     stack: "Figma",

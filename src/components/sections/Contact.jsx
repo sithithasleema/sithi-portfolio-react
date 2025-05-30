@@ -27,7 +27,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="max-w-full lg:px-20   border-gray-300 mb-20"
+      className="max-w-full lg:px-20   border-gray-300 m-20"
     >
       <div className="p-10 max-w-[90%] lg:max-w-[50%]  bg-gray-200 mx-auto">
         <h2 className=" z-40 text-3xl font-bold mb-8 bg-gradient-to-r from-gray-800 to-gray-500 text-transparent bg-clip-text ">
