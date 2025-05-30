@@ -15,6 +15,30 @@ export const About = () => {
           </h2>
         </div>
 
+        {/* Experience */}
+
+        <div className="grid grid-cols-1  gap-6 mt-8">
+          <div className="p-6 rounded-xl border-gray-100 border-1  shadow-md shadow-gray-400 hover:bg-gradient-to-r from-gray-100 to-gray-200">
+            <h3 className="text-xl font-bold mb-6">Work Experience</h3>
+            <ul className="list-disc list-inside">
+              {workExperience.map((work) => (
+                <li className="mb-8">
+                  <strong>{work.role}</strong>
+                  <p>
+                    {work.company} -{" "}
+                    <span className="italic">{work.period}</span>
+                  </p>
+                  <ul className="list-disc list-inside mt-8 text-gray-700">
+                    {work.responsibilities.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
         <div className="border-1 p-10 border-gray-100 shadow-md shadow-gray-400 hover:bg-gradient-to-r from-gray-100 to-gray-200">
           <p>
             I enjoy combining creativity with technical skills to build
@@ -79,30 +103,6 @@ export const About = () => {
                     {cert.institution} -{" "}
                     <span className="italic">{cert.year}</span>
                   </p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        {/* Experience */}
-
-        <div className="grid grid-cols-1  gap-6 mt-8">
-          <div className="p-6 rounded-xl border-gray-100 border-1  shadow-md shadow-gray-400 hover:bg-gradient-to-r from-gray-100 to-gray-200">
-            <h3 className="text-xl font-bold mb-6">Work Experience</h3>
-            <ul className="list-disc list-inside">
-              {workExperience.map((work) => (
-                <li className="mb-8">
-                  <strong>{work.role}</strong>
-                  <p>
-                    {work.company} -{" "}
-                    <span className="italic">{work.period}</span>
-                  </p>
-                  <ul className="list-disc list-inside mt-8 text-gray-700">
-                    {work.responsibilities.map((item, i) => (
-                      <li key={i}>{item}</li>
-                    ))}
-                  </ul>
                 </li>
               ))}
             </ul>
