@@ -2,6 +2,7 @@ import tastyTable from "../assets/tastytable.png";
 import bookHaven from "../assets/bookhaven.png";
 import sithi from "../assets/sithi.png";
 import fitboost from "../assets/fitboost.png";
+import arraheem from "../assets/logo.png";
 
 export const frontEndSkills = [
   "HTML5",
@@ -80,6 +81,20 @@ export const workExperience = [
 ];
 
 export const projects = [
+  {
+    title: "ArRaheem Cakes",
+    image: arraheem,
+    stack: "Nextjs and Sanity.io",
+    description:
+      "This project highlights my skills in React.js, Next.js, and responsive UI design to create a visually appealing, easy-to-navigate website that supports the bakery’s goal to increase online orders and brand presence in the Hyderabad marke",
+    technologies: ["React.js", "Next.js", "Sanity.io", "Tailwind CSS"],
+    features: [
+      "An intuitive online cake catalog with categorized products and detailed descriptions",
+      "Mobile-first design optimized for smooth browsing on all devices",
+      "SEO-focused content structure to enhance local search visibility for Hyderabad",
+    ],
+    url: "https://arraheemcakes.vercel.app/",
+  },
   {
     title: "Tasty Table",
     image: tastyTable,
